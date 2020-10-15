@@ -1,6 +1,6 @@
 # vim-cheatsheet
 The list of commands on vim which I often use 
-
+~~~
 :q -> quit 
 :wq -> save and quit 
 :q!-> quit and dont save the file 
@@ -67,3 +67,5 @@ q*key to save the recording to* -> macros
 	saves whatever you do that key; tap q again to quit the recording 
 	now to use the macros just type @*the key* 
 
+~~~ 
+:)
