@@ -33,18 +33,18 @@ V-> drops you into visual mode (visual mode allows you to select the group
 o-> to insert a line and puts to inside insert mode 
 d}- deletes the entire block of code 
 w-> takes the cursor to the next word in the line 
-b-> takes the curson to the previous word in the line 
-:*line numer* -> takes you to that line number 
+b-> takes the cursor to the previous word in the line 
+:*line number* -> takes you to that line number 
 :0 -> to the top 
-0 -> takes you to the very beginning of line 
+0 -> takes you to the very beginning of the line 
 ^ -> takes you to the first word of the line 
-0w -> emulates the behaviour of ^ 
+0w -> emulates the behavior of ^ 
 t*goto character*-> takes you to a specific character in line 
 f -> does the same as t 
 	the only difference is that f takes you to the character and t takes you 
 	one to the left
-f*the character*; -> goes throught all the instances of *the character* in the line 
-cw -> change word (deletes and specfic word and takes you in insert mode) 
+f*the character*; -> goes through all the instances of *the character* in the line 
+cw -> change word (deletes and specific word and takes you in insert mode) 
 dw -> to delete a word 
 D-> to delete the rest of the line 
 C-> deletes the rest of the line and puts you in insert mode 
@@ -66,6 +66,5 @@ R-> replaces a bunch of letters
 q*key to save the recording to* -> macros 
 	saves whatever you do that key; tap q again to quit the recording 
 	now to use the macros just type @*the key* 
-
 ~~~ 
 :)
